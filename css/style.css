@@ -61,7 +61,7 @@ a {
   font-weight: bold;
 }
 
-/* Estilos para links no hover */
+
 nav a:hover {
   color: #ffcc00;
 }
@@ -69,21 +69,16 @@ nav a:hover {
   margin-top: 0px;
   margin-bottom: 25px;
 }
-/* Adicione isso ao seu arquivo style.css */
 
-/* Estilos para o rodapé */
-/* Adicione isso ao seu arquivo style.css */
-
-/* Estilos para o rodapé */
 footer {
   background-color: #333;
   color: #fff;
   padding: 20px 0;
-  text-align: center; /* Centralize o texto */
+  text-align: center; 
 }
 
 .footer-logo img {
-  max-width: 240px; /* Ajuste o tamanho da logo conforme necessário */
+  max-width: 240px; 
 }
 
 .footer-info, .footer-about {
@@ -96,56 +91,53 @@ footer {
   margin-bottom: 10px;
 }
 
-/* Estilos para os links no rodapé */
+
 .footer-info p, .footer-about p {
   font-size: 14px;
   margin-bottom: 5px;
 }
 
-/* Estilos para os links no rodapé */
+
 .footer-info a {
   color: #ffcc00;
   text-decoration: none;
 }
 
-/* Estilos para os links no hover */
+
 .footer-info a:hover {
   text-decoration: underline;
 }
 
-/* Estilos para os textos no rodapé */
+
 .footer-about p {
   font-size: 14px;
   line-height: 1.4;
 }
-/* Adicione isso ao seu arquivo style.css */
-/* Adicione isso ao seu arquivo style.css */
 
-/* Estilos para a seção da maratona */
 .maratona-section {
-  position: relative; /* Necessário para posicionar o texto sobre a imagem */
-  background-color: #333; /* Cor de fundo para destacar a imagem */
+  position: relative; 
+  background-color: #333; 
   color: #fff;
   text-align: center;
 }
 
-/* Estilos para a imagem */
+
 .maratona-section img {
-  width: 100%; /* Faz a imagem ocupar toda a largura da seção */
+  width: 100%; 
   height: 95vh;
   opacity: 45%;
-  display: block; /* Remove qualquer espaço extra abaixo da imagem */
+  display: block; 
 }
 
-/* Estilos para o container do texto */
+
 .maratona-section .container {
-  position: absolute; /* Posiciona o conteúdo sobre a imagem */
-  top: 50%; /* Move o container para o centro vertical */
-  left: 50%; /* Move o container para o centro horizontal */
-  transform: translate(-50%, -50%); /* Centraliza o container completamente */
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
 }
 
-/* Estilos para o texto sobreposto */
+
 
 .maratona-text h2 {
   font-size: 54px;
@@ -156,21 +148,21 @@ footer {
   font-size: 20px;
   margin-top: 10px;
 }
-/* Estilos para a seção da Semana Acadêmica */
+
 .semana-academica-section {
-  background-color: #fff; /* Cor de fundo para destacar a seção */
+  background-color: #fff; 
   color: #333;
   text-align: center;
 
 }
 
-/* Estilos para o container de texto da Semana Acadêmica */
+
 .semana-academica-section .container {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-/* Estilos para o texto da Semana Acadêmica */
+
 .semana-academica-text {
   padding: 20px;
 }
@@ -185,15 +177,13 @@ footer {
   margin-top: 10px;
 }
 
-/* Estilos para a seção de Jogos */
+
 .jogos-section {
-  background-color: #f0f0f0; /* Cor de fundo para a seção */
+  background-color: #f0f0f0; 
   text-align: center;
 }
 
-/* Estilos para o container dos cartões de jogos */
 
-/* Estilos para os links "Escrever minha equipe" */
 .eq {
   text-decoration: none;
   background-color: #ffcc00;
@@ -201,17 +191,17 @@ footer {
   padding: 5px 10px;
   border-radius: 5px;
   display: inline-block;
-  margin-top: 10px; /* Espaço acima do link */
-  margin-bottom: 10px; /* Espaço abaixo do link */
+  margin-top: 10px; 
+  margin-bottom: 10px; 
 }
 
-/* Estilos para o link "Escrever minha equipe" no terceiro card */
+
 .bottom-link {
-  margin-top: 0; /* Define o espaço acima como 0 para o terceiro link */
+  margin-top: 0; 
   margin-bottom: 10px;
 }
 
-/* Estilos para os cartões de jogos */
+
 .card {
   flex: 2;
   background-color: #fff;
@@ -250,91 +240,89 @@ footer {
 }
 
 
-/* Estilos para os botões */
+
 button {
-  background-color: #ffcc00; /* Cor de fundo dos botões */
-  color: #333; /* Cor do texto dos botões */
-  font-size: 17px; /* Tamanho da fonte dos botões */
-  padding: 10px 20px; /* Espaçamento interno dos botões */
+  background-color: #ffcc00; 
+  color: #333;
+  font-size: 17px;
+  padding: 10px 20px;
   font-weight: bold;
-  border: none; /* Remove a borda dos botões */
-  border-radius: 5px; /* Borda arredondada dos botões */
-  cursor: pointer; /* Cursor em forma de mão ao passar o mouse */
-  margin: 5px; /* Espaço entre os botões */
-  transition: background-color 0.3s, color 0.3s; /* Transição suave de cores */
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  margin: 5px; 
+  transition: background-color 0.3s, color 0.3s; 
 }
 
-/* Estilo de hover para os botões */
+
 button:hover {
-  background-color: #333; /* Cor de fundo ao passar o mouse */
-  color: #fff; /* Cor do texto ao passar o mouse */
+  background-color: #333; 
+  color: #fff; 
 }
 
-/* Estilos para os botões dentro da seção da maratona */
+
 .maratona-text button {
-  margin: 10px 5px; /* Espaço entre os botões dentro da seção da maratona */
+  margin: 10px 5px; 
 }
 
-/* Estilos para a seção de programação */
+
 .programming-section {
-  background-image: url('../img/prog.webp'); /* Substitua pelo caminho da sua imagem de fundo */
+  background-image: url('../img/prog.webp'); 
   background-size: cover;
   background-position: 50%;
   color: #fff;
   text-align: center;
   padding: 100px 0;
-  position: relative; /* Adiciona uma posição relativa à seção para sobrepor o texto */
+  position: relative; 
 }
 
-/* Estilos para o container de conteúdo */
+
 .programming-section .container {
   max-width: 1200px;
   height: 200px;
   margin: 0 auto;
 }
 
-/* Estilos para o container de texto */
+
 .text-container {
   position: absolute;
-  top: 50%; /* Move o container para o centro vertical */
-  left: 50%; /* Move o container para o centro horizontal */
-  transform: translate(-50%, -50%); /* Centraliza o container completamente */
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
 }
 
-/* Estilos para o título da seção */
+
 .text-container h1 {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 20px;
 
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Efeito de sombra no texto */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
 
-/* Estilos para o texto dentro da seção */
+
 .text-container p {
   font-size: 24px;
   line-height: 1.5;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Efeito de sombra no texto */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
 
-/* Estilos para o fundo embaçado */
+
 .programming-section::before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo embaçado */
+  background-color: rgba(0, 0, 0, 0.5); 
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1; /* Coloca o fundo embaçado atrás do conteúdo */
+  z-index: -1;
 
-}/* Estilos para cada div de patrocinador */
-/* Estilos para cada div de patrocinador */
-/* Estilos para cada div de patrocinador */
+}
 .sponsor {
-  overflow: hidden; /* Limpa a flutuação das imagens */
-  display: flex; /* Exibe os patrocinadores em uma linha */
-  align-items: center; /* Centraliza verticalmente os elementos */
+  overflow: hidden; 
+  display: flex; 
+  align-items: center; 
   margin: 30px 0px 30px 15px;
 }
 .sponsor-section .container {
@@ -350,73 +338,71 @@ button:hover {
 
   text-align: center;
 }
-/* Estilos para as imagens de patrocinadores */
+
 .sponsor-image {
-  flex: 1; /* A imagem ocupa 1 unidade de espaço flexível */
-  width: 500px; /* Largura máxima da imagem */
+  flex: 1; 
+  width: 500px; 
   max-height: 300px;
 }
 
 .sponsor-image img {
-  max-width: 250px; /* Garante que a imagem não exceda a largura da div */
-  border-radius: 10%; /* Borda arredondada para as imagens */
+  max-width: 250px; 
+  border-radius: 10%; 
 }
 
-/* Estilos para a informação do patrocinador */
+
 .sponsor-info {
-  flex: 3; /* A informação do patrocinador ocupa 3 unidades de espaço flexível */
+  flex: 3; 
 }
 
-/* Estilos para o título do patrocinador */
+
 .sponsor-info h3 {
-  font-size: 24px; /* Tamanho da fonte do título */
-  margin: 0; /* Remove margem padrão do título */
+  font-size: 24px; 
+  margin: 0; 
 }
 
-/* Estilos para a descrição do patrocinador */
 .sponsor-info p {
-  font-size: 16px; /* Tamanho da fonte do texto */
-  color: #666; /* Cor do texto */
-  margin: 10px 0; /* Espaçamento superior e inferior do texto */
+  font-size: 16px; 
+  color: #666; 
+  margin: 10px 0; 
 }
 
-/* Estilos para a seção das linguagens de programação */
+
 .linguagens-section {
-  background-color: #f0f0f0; /* Cor de fundo para a seção */
+  background-color: #f0f0f0; 
   text-align: center;
   padding: 20px 0;
 }
 
-/* Estilos para o container das imagens */
+
 .linguagens-images {
   width: 100%;
-  display: flex; /* Exibe as imagens em uma linha */
-  justify-content: space-between; /* Distribui o espaço entre as imagens */
-  align-items: center; /* Alinha as imagens verticalmente ao centro */
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
 }
 
-/* Estilos para as imagens das linguagens de programação */
+
 .linguagens-images img {
   margin-top: 25px;
-  width: 100px; /* Largura de 100px para cada imagem */
-  height: auto; /* Altura automática para manter a proporção */
-  margin-right: 10px; /* Espaçamento à direita de cada imagem */
+  width: 100px; 
+  height: auto; 
+  margin-right: 10px; 
 }
 
-/* Remove a margem à direita da última imagem */
+
 .linguagens-images img:last-child {
   margin-right: 0;
 }
 
-/* Estilos para a seção do cronograma */
-/* Estilos para a seção do cronograma */
+
 .cronograma-container {
   text-align: center;
   background-color: #f0f0f0;
   padding: 30px 0;
 }
 
-/* Estilos para cada dia do cronograma */
+
 .dia {
   background-color: #fff;
   border: 1px solid #ccc;
@@ -427,88 +413,88 @@ button:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilos para os títulos dos dias */
+
 .dia h2 {
   font-size: 24px;
   color: #333;
 }
 
-/* Estilos para a lista de eventos */
+
 .custom-ul {
   list-style: none;
   padding: 0;
 }
 
-/* Estilos para cada item da lista */
+
 .custom-li {
   font-size: 18px;
   margin: 20px 0;
   color: #666;
-  display: flex; /* Alinha horário e texto na mesma linha */
-  align-items: flex-start; /* Alinha o horário no topo da div */
+  display: flex; 
+  align-items: flex-start; 
 }
 
-/* Estilos para o horário */
+
 .horario {
   font-size: 18px;
   font-weight: bold;
-  width: 100px; /* Largura fixa para o horário */
-  margin-right: 20px; /* Espaço à direita do horário */
+  width: 100px; 
+  margin-right: 20px; 
 }
 
-/* Estilos para a seção de fotos do evento */
+
 .fotos-section {
-  background-color: #f0f0f0; /* Cor de fundo da seção */
+  background-color: #f0f0f0; 
   text-align: center;
   padding: 40px 0;
 }
 
-/* Estilos para o título "Fotos do Evento" */
+
 .fotos-section h2 {
   font-size: 28px;
   margin-bottom: 20px;
 }
 
-/* Estilos para as fotos */
+
 .foto {
   margin-right: 30px;
-  margin-bottom: 30px; /* Espaçamento entre as fotos */
+  margin-bottom: 30px; 
 }
 
-/* Estilos para a imagem da foto */
+
 .foto img {
   max-width: 100%;
 
-  height: auto; /* Mantém a proporção da imagem */
-  border-radius: 5px; /* Borda arredondada para as imagens */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave nas imagens */
-  transition: transform 0.2s ease-in-out; /* Efeito de escala suave no hover */
+  height: auto; 
+  border-radius: 5px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.2s ease-in-out; 
 }
 
-/* Estilos para a descrição da foto */
+
 .foto p {
   font-size: 16px;
   margin-top: 10px;
-  color: #666; /* Cor do texto da descrição */
+  color: #666; 
 }
 
-/* Efeito de escala no hover para as imagens */
+
 .foto img:hover {
-  transform: scale(1.05); /* Aumenta a escala em 5% ao passar o mouse */
+  transform: scale(1.05); 
 }
 section.ct .container {
   justify-content: center;
 }
 
-/* Centralizar o formulário */
+
 #formulario {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 70vh; /* Defina uma altura mínima para manter o formulário no centro da página */
+  min-height: 70vh; 
 }
-/* Estilizar os campos do formulário */
+
 #formulario div {
   margin-bottom: 20px;
 }
@@ -531,7 +517,6 @@ section.ct .container {
   font-size: 16px;
 }
 
-/* Estilizar o botão de envio */
 #formulario button[type="submit"] {
   background-color: #ffcc00;
   color: #333;
