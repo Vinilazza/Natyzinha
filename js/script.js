@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     };
 
     // Você pode substituir este URL pelo endpoint real onde deseja enviar os dados
-    const url = "https://jsonplaceholder.typicode.com/posts";
+    const url = "http://jkorpela.fi/cgi-bin/echo.cgi";
 
     fetch(url, {
       method: "POST",
