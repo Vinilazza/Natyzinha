@@ -532,3 +532,40 @@ section.ct .container {
   background-color: #333;
   color: #fff;
 }
+
+.my-form label {
+  font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.my-form div {
+  display: flex; align-items: center; margin-right: 35px;
+}
+
+/* Estilos para o contêiner */
+.my-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para os botões */
+.my-button {
+  background-color: #ffcc00;
+  color: #333;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.my-button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
